@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T16:12:33 IST" name="Default suite" finished-at="2024-06-24T16:12:50 IST" duration-ms="17352">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T16:12:33 IST" name="Default test" finished-at="2024-06-24T16:12:50 IST" duration-ms="17352">
+      <class name="org.testing.Pages.Teams">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:org.testing.Pages.Teams@3b0090a4]" started-at="2024-06-24T16:12:33 IST" name="launchapplication" finished-at="2024-06-24T16:12:47 IST" duration-ms="14104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="teamsclick()[pri:0, instance:org.testing.Pages.Teams@3b0090a4]" started-at="2024-06-24T16:12:47 IST" name="teamsclick" finished-at="2024-06-24T16:12:50 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teamsclick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.testing.Pages.Teams@3b0090a4]" started-at="2024-06-24T16:12:50 IST" name="teardown" finished-at="2024-06-24T16:12:50 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.testing.Pages.Teams -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
