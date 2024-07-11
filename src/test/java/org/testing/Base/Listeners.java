@@ -1,7 +1,6 @@
 package org.testing.Base;
 
 
-import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -9,7 +8,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.aventstack.extentreports.ExtentReports;s
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
@@ -17,10 +16,13 @@ import ECMS.Resources.Extentreport;
 
 
 
-public class Listeners extends Baseclass implements ITestListener{
-    private WebDriver driver;
+public class Listeners extends Baseclass implements  ITestListener{
+
+	private WebDriver driver;
+    
     ExtentTest test;
 	ExtentReports extent = Extentreport.getReportObject();
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getMethod().getMethodName());
@@ -57,14 +59,23 @@ public class Listeners extends Baseclass implements ITestListener{
 		}
 		try {
 			test.addScreenCaptureFromPath(filepath, result.getMethod().getMethodName());
-		} catch (IOException e) {
+		} catch (IllegalArgumentException | SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		 }
+		//Screenshot
+ catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//Screenshot
 
 
 	}
+
+//	public String getscreenshot(String methodName, WebDriver driver2) {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 
 	@Override
      public void onTestSkipped(ITestResult result) {

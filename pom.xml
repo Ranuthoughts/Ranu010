@@ -6,7 +6,7 @@
   <artifactId>ECMS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+   
   <name>ECMS</name>
   <url>http://maven.apache.org</url>
 
@@ -21,8 +21,6 @@
     <artifactId>extentreports</artifactId>
     <version>4.0.9</version>
 </dependency>
-
-
 
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -76,7 +74,7 @@
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
-    <version>2.5</version>
+    <version>2.11.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
@@ -94,7 +92,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-       <version>2.19.1</version>
+       <version>3.13.1</version>
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>src/main/java/testsuite/testng.xml</suiteXmlFile>
