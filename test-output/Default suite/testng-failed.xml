@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testing.Pages.Teams">
+      <class name="Uploadfile.Uploaddownload">
         <methods>
           <include name="launchapplication"/>
+          <include name="bulkaddmoneyclick"/>
           <include name="teardown"/>
           <include name="teamsclick"/>
         </methods>
-      </class> <!-- org.testing.Pages.Teams -->
+      </class> <!-- Uploadfile.Uploaddownload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

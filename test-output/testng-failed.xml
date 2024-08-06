@@ -1,50 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Pages]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="org.testing.Base.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="TeamsCases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.testing.TestCases.Addmoney">
+      <class name="Uploadfile.Uploaddownload">
         <methods>
           <include name="launchapplication"/>
-          <include name="noaddmoney"/>
+          <include name="bulkaddmoneyclick"/>
           <include name="teardown"/>
-          <include name="cardclick"/>
-          <include name="addmoney"/>
+          <include name="teamsclick"/>
         </methods>
-      </class> <!-- org.testing.TestCases.Addmoney -->
-      <class name="org.testing.TestCases.AddMembervirtual">
-        <methods>
-          <include name="launchapplication"/>
-          <include name="teardown"/>
-          <include name="memberaddvirtual"/>
-        </methods>
-      </class> <!-- org.testing.TestCases.AddMembervirtual -->
-      <class name="org.testing.TestCases.Cardsettings">
-        <methods>
-          <include name="launchapplication"/>
-          <include name="carddetails"/>
-          <include name="addcard"/>
-          <include name="teardown"/>
-          <include name="cardactivate"/>
-        </methods>
-      </class> <!-- org.testing.TestCases.Cardsettings -->
-      <class name="org.testing.TestCases.Addmemberphysical">
-        <methods>
-          <include name="launchapplication"/>
-          <include name="teardown"/>
-          <include name="memberaddphysical"/>
-        </methods>
-      </class> <!-- org.testing.TestCases.Addmemberphysical -->
-      <class name="org.testing.TestCases.Teamsfilter">
-        <methods>
-          <include name="launchapplication"/>
-          <include name="teamfilter"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- org.testing.TestCases.Teamsfilter -->
+      </class> <!-- Uploadfile.Uploaddownload -->
     </classes>
-  </test> <!-- TeamsCases(failed) -->
-</suite> <!-- Failed suite [Pages] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

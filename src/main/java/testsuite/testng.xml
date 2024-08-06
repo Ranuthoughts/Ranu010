@@ -18,12 +18,13 @@
     <classes>
       <class name ="org.testing.TestCases.AddMembervirtual"/>
       <class name ="org.testing.TestCases.Addmemberphysical"/>
-      <class name ="org.testing.TestCases.Teamsfilter"/>
+      <class name ="org.testing.TestCases.Teamsf1ilter"/>
       <class name = "org.testing.TestCases.Cardsettings"/>
       <class name = "org.testing.TestCases.Addmoney"/>
 </classes>
       </test>
     </suite>
+    
   
 
   

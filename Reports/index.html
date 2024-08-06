@@ -55,7 +55,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">Jul 10, 2024 06:53:45 PM</span>
+                    <span class="badge badge-primary">Jul 30, 2024 02:25:35 PM</span>
                 </a>
             </li>
         </ul>
@@ -133,7 +133,7 @@
                                             <div class="test-detail"> 
                                                 <p class="name">C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\Reports\index.html</p> 
                                                 <p class="duration text-sm">0h 0m 0s+0ms</p> 
-                                                <span class="datetime">18:53:45 PM</span>
+                                                <span class="datetime">14:25:35 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -141,8 +141,8 @@
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-pass">C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\Reports\index.html</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:53:45</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:53:45</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:25:35</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:25:35</span>
                                                         <span class='badge badge-default'>0h 0m 0s+0ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
@@ -152,28 +152,28 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="test-item"  status="pass" test-id="2"
+                                    <li class="test-item"  status="fail" test-id="2"
                                             author=""
                                             tag=""
                                             device="">
-                                        <div class="status-avatar pass-bg">
-                                            <i class="fa fa-check text-white"></i>
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
                                         </div>
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">teamsclick</p> 
-                                                <p class="duration text-sm">0h 0m 3s+740ms</p> 
-                                                <span class="datetime">18:54:01 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+85ms</p> 
+                                                <span class="datetime">14:25:54 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
                                             <div class="detail-head">
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
-                                                        <h5 class="test-status text-pass">teamsclick</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:54:01</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:54:05</span>
-                                                        <span class='badge badge-default'>0h 0m 3s+740ms</span>
+                                                        <h5 class="test-status text-fail">teamsclick</h5>
+                                                        <span class='badge badge-success'>07.30.2024 14:25:54</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:26:07</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+85ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -189,39 +189,115 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>6:54:05 PM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:07 PM</td>
 				<td>
-						Test Passed
+						Test Failed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:07 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a016e62e48e3fc65d9d393cbd407ad7b, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52014/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a016e62e48e3fc65d9d393cbd407ad7b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
 				</td>
 			</tr>
 	</tbody>
 </table>
 </div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\screenshotsteamsclick.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+					<span class="file-name">teamsclick</span>
+					<span class="file-size"> 735,897Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
                                         </div>
                                     </li>
-                                    <li class="test-item"  status="pass" test-id="3"
+                                    <li class="test-item"  status="fail" test-id="3"
                                             author=""
                                             tag=""
                                             device="">
-                                        <div class="status-avatar pass-bg">
-                                            <i class="fa fa-check text-white"></i>
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
                                         </div>
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">teamspendsclick</p> 
-                                                <p class="duration text-sm">0h 0m 3s+663ms</p> 
-                                                <span class="datetime">18:54:17 PM</span>
+                                                <p class="duration text-sm">0h 0m 12s+34ms</p> 
+                                                <span class="datetime">14:26:20 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
                                             <div class="detail-head">
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
-                                                        <h5 class="test-status text-pass">teamspendsclick</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:54:17</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:54:21</span>
-                                                        <span class='badge badge-default'>0h 0m 3s+663ms</span>
+                                                        <h5 class="test-status text-fail">teamspendsclick</h5>
+                                                        <span class='badge badge-success'>07.30.2024 14:26:20</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:26:32</span>
+                                                        <span class='badge badge-default'>0h 0m 12s+34ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -237,39 +313,115 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>6:54:21 PM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:32 PM</td>
 				<td>
-						Test Passed
+						Test Failed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:32 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@routerlinkactive='active'])[5]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f58a832b0ddc6ff830602fdb7c92456f, findElement {using=xpath, value=(//div[@routerlinkactive='active'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52078/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f58a832b0ddc6ff830602fdb7c92456f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.TeamSpends.teamspendsclick(TeamSpends.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
 				</td>
 			</tr>
 	</tbody>
 </table>
 </div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\screenshotsteamspendsclick.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+					<span class="file-name">teamspendsclick</span>
+					<span class="file-size"> 733,551Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
                                         </div>
                                     </li>
-                                    <li class="test-item"  status="pass" test-id="4"
+                                    <li class="test-item"  status="fail" test-id="4"
                                             author=""
                                             tag=""
                                             device="">
-                                        <div class="status-avatar pass-bg">
-                                            <i class="fa fa-check text-white"></i>
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
                                         </div>
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">teamsummaryclick</p> 
-                                                <p class="duration text-sm">0h 0m 2s+447ms</p> 
-                                                <span class="datetime">18:54:33 PM</span>
+                                                <p class="duration text-sm">0h 0m 12s+62ms</p> 
+                                                <span class="datetime">14:26:44 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
                                             <div class="detail-head">
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
-                                                        <h5 class="test-status text-pass">teamsummaryclick</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:54:33</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:54:35</span>
-                                                        <span class='badge badge-default'>0h 0m 2s+447ms</span>
+                                                        <h5 class="test-status text-fail">teamsummaryclick</h5>
+                                                        <span class='badge badge-success'>07.30.2024 14:26:44</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:26:56</span>
+                                                        <span class='badge badge-default'>0h 0m 12s+62ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -285,39 +437,115 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>6:54:35 PM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:56 PM</td>
 				<td>
-						Test Passed
+						Test Failed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:26:56 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//li[@class='list ng-star-inserted'])[2]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da736eb29ad63b4af2d3e66590e27a33, findElement {using=xpath, value=(//li[@class='list ng-star-inserted'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da736eb29ad63b4af2d3e66590e27a33
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.TeamSummary.teamsummaryclick(TeamSummary.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
 				</td>
 			</tr>
 	</tbody>
 </table>
 </div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\screenshotsteamsummaryclick.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+					<span class="file-name">teamsummaryclick</span>
+					<span class="file-size"> 735,032Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
                                         </div>
                                     </li>
-                                    <li class="test-item"  status="pass" test-id="5"
+                                    <li class="test-item"  status="fail" test-id="5"
                                             author=""
                                             tag=""
                                             device="">
-                                        <div class="status-avatar pass-bg">
-                                            <i class="fa fa-check text-white"></i>
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
                                         </div>
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">categories</p> 
-                                                <p class="duration text-sm">0h 0m 4s+383ms</p> 
-                                                <span class="datetime">18:54:47 PM</span>
+                                                <p class="duration text-sm">0h 0m 10s+49ms</p> 
+                                                <span class="datetime">14:27:09 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
                                             <div class="detail-head">
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
-                                                        <h5 class="test-status text-pass">categories</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:54:47</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:54:52</span>
-                                                        <span class='badge badge-default'>0h 0m 4s+383ms</span>
+                                                        <h5 class="test-status text-fail">categories</h5>
+                                                        <span class='badge badge-success'>07.30.2024 14:27:09</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:27:19</span>
+                                                        <span class='badge badge-default'>0h 0m 10s+49ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -333,39 +561,115 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>6:54:52 PM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:27:19 PM</td>
 				<td>
-						Test Passed
+						Test Failed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:27:19 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@routerlinkactive='active'])[8]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d85a58eb9355d3fe0209d8641683ba90, findElement {using=xpath, value=(//div[@routerlinkactive='active'])[8]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52200/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d85a58eb9355d3fe0209d8641683ba90
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.Categories.categories(Categories.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
 				</td>
 			</tr>
 	</tbody>
 </table>
 </div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\screenshotscategories.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+					<span class="file-name">categories</span>
+					<span class="file-size"> 735,207Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
                                         </div>
                                     </li>
-                                    <li class="test-item"  status="pass" test-id="6"
+                                    <li class="test-item"  status="fail" test-id="6"
                                             author=""
                                             tag=""
                                             device="">
-                                        <div class="status-avatar pass-bg">
-                                            <i class="fa fa-check text-white"></i>
+                                        <div class="status-avatar fail-bg">
+                                            <i class="fa fa-times text-white"></i>
                                         </div>
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">misclick</p> 
-                                                <p class="duration text-sm">0h 0m 2s+579ms</p> 
-                                                <span class="datetime">18:55:04 PM</span>
+                                                <p class="duration text-sm">0h 0m 12s+25ms</p> 
+                                                <span class="datetime">14:27:32 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
                                             <div class="detail-head">
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
-                                                        <h5 class="test-status text-pass">misclick</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:55:04</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:55:06</span>
-                                                        <span class='badge badge-default'>0h 0m 2s+579ms</span>
+                                                        <h5 class="test-status text-fail">misclick</h5>
+                                                        <span class='badge badge-success'>07.30.2024 14:27:32</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:27:44</span>
+                                                        <span class='badge badge-default'>0h 0m 12s+25ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -381,14 +685,90 @@
 	</tr></thead>
 	<tbody>
 			<tr class="event-row">
-				<td><i class="fa fa-check text-pass"></i></td>
-				<td>6:55:06 PM</td>
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:27:44 PM</td>
 				<td>
-						Test Passed
+						Test Failed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>2:27:44 PM</td>
+				<td>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@routerlinkactive='active'])[10]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e10c5ab0b90f08c6a15dc5bcba1a162d, findElement {using=xpath, value=(//div[@routerlinkactive='active'])[10]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52270}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52270/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e10c5ab0b90f08c6a15dc5bcba1a162d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.MIS.misclick(MIS.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
 				</td>
 			</tr>
 	</tbody>
 </table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+		<li>
+			<a href="C:\Users\Ranu Tiwari\eclipse-workspace\ECMS\screenshotsmisclick.png" data-featherlight="image">
+				<div class="file-icon">
+					<i class="fa fa-file-image-o"></i> 
+				</div>
+				<div class="file-info">
+					<span class="file-name">misclick</span>
+					<span class="file-size"> 713,198Kb</span>
+				</div>
+			</a>
+		</li>
+	</ul>
 </div>
                                         </div>
                                     </li>
@@ -402,8 +782,8 @@
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">memberaddvirtual</p> 
-                                                <p class="duration text-sm">0h 0m 29s+509ms</p> 
-                                                <span class="datetime">18:55:19 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+52ms</p> 
+                                                <span class="datetime">14:27:59 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -411,9 +791,9 @@
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">memberaddvirtual</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:55:19</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:55:48</span>
-                                                        <span class='badge badge-default'>0h 0m 29s+509ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:27:59</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:28:12</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+52ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -430,24 +810,24 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:55:48 PM</td>
+				<td>2:28:12 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:55:48 PM</td>
+				<td>2:28:12 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dcf4267c0d0c97949ba6bc6c03634bef, clickElement {id=f.8E8CF971ACC4934205AF2D8A9FF155F2.d.D1D2AD26162B06A95A022694F9A53B39.e.125}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65347/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (dcf4267c0d0c97949ba6bc6c03634bef)] -> xpath: (//li[@class='multiselect-item-checkbox ng-star-inserted'])[6]]
-Session ID: dcf4267c0d0c97949ba6bc6c03634bef
+Command: [d6a32fba8aef5b81d18f83e5799939d3, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52323/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6a32fba8aef5b81d18f83e5799939d3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -460,9 +840,12 @@ Session ID: dcf4267c0d0c97949ba6bc6c03634bef
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.testing.TestCases.AddMembervirtual.memberaddvirtual(AddMembervirtual.java:44)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.AddMembervirtual.memberaddvirtual(AddMembervirtual.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -506,7 +889,7 @@ Session ID: dcf4267c0d0c97949ba6bc6c03634bef
 				</div>
 				<div class="file-info">
 					<span class="file-name">memberaddvirtual</span>
-					<span class="file-size"> 138,022Kb</span>
+					<span class="file-size"> 714,385Kb</span>
 				</div>
 			</a>
 		</li>
@@ -524,8 +907,8 @@ Session ID: dcf4267c0d0c97949ba6bc6c03634bef
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">memberaddphysical</p> 
-                                                <p class="duration text-sm">0h 0m 11s+623ms</p> 
-                                                <span class="datetime">18:56:00 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+24ms</p> 
+                                                <span class="datetime">14:28:25 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -533,9 +916,9 @@ Session ID: dcf4267c0d0c97949ba6bc6c03634bef
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">memberaddphysical</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:56:00</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:56:12</span>
-                                                        <span class='badge badge-default'>0h 0m 11s+623ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:28:25</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:28:38</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+24ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -552,24 +935,24 @@ Session ID: dcf4267c0d0c97949ba6bc6c03634bef
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:56:12 PM</td>
+				<td>2:28:38 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:56:12 PM</td>
+				<td>2:28:38 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span tabindex="-1" class="dropdown-btn">...</span> is not clickable at point (817, 106). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [093aa64828dc13f8321c6a07dcfe3c55, clickElement {id=f.041A0F53E1813122120BD644BFE2A0D7.d.D8225709122CB404658F4C08E8A51299.e.113}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65388/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (093aa64828dc13f8321c6a07dcfe3c55)] -> xpath: (//span[@class='dropdown-btn'])[2]]
-Session ID: 093aa64828dc13f8321c6a07dcfe3c55
+Command: [6de357fbff16a9d27f66830e2569e018, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52371/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6de357fbff16a9d27f66830e2569e018
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -582,9 +965,12 @@ Session ID: 093aa64828dc13f8321c6a07dcfe3c55
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.testing.TestCases.Addmemberphysical.memberaddphysical(Addmemberphysical.java:29)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.Addmemberphysical.memberaddphysical(Addmemberphysical.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -628,7 +1014,7 @@ Session ID: 093aa64828dc13f8321c6a07dcfe3c55
 				</div>
 				<div class="file-info">
 					<span class="file-name">memberaddphysical</span>
-					<span class="file-size"> 132,972Kb</span>
+					<span class="file-size"> 714,128Kb</span>
 				</div>
 			</a>
 		</li>
@@ -646,8 +1032,8 @@ Session ID: 093aa64828dc13f8321c6a07dcfe3c55
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">teamfilter</p> 
-                                                <p class="duration text-sm">0h 0m 19s+471ms</p> 
-                                                <span class="datetime">18:56:25 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+41ms</p> 
+                                                <span class="datetime">14:28:51 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -655,9 +1041,9 @@ Session ID: 093aa64828dc13f8321c6a07dcfe3c55
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">teamfilter</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:56:25</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:56:44</span>
-                                                        <span class='badge badge-default'>0h 0m 19s+471ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:28:51</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:29:04</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+41ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -674,24 +1060,24 @@ Session ID: 093aa64828dc13f8321c6a07dcfe3c55
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:56:44 PM</td>
+				<td>2:29:04 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:56:44 PM</td>
+				<td>2:29:04 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dltIcon"}
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3ba65d475db4c1cbb0c8db7f4b6b2ccf, findElement {using=class name, value=dltIcon}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65436/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
+Command: [b1e4054a367c78b34ef95f085114eb40, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52423/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1e4054a367c78b34ef95f085114eb40
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -708,7 +1094,8 @@ Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.testing.TestCases.Teamsfilter.teamfilter(Teamsfilter.java:30)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.Teamsfilter.teamfilter(Teamsfilter.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -752,7 +1139,7 @@ Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
 				</div>
 				<div class="file-info">
 					<span class="file-name">teamfilter</span>
-					<span class="file-size"> 127,743Kb</span>
+					<span class="file-size"> 735,446Kb</span>
 				</div>
 			</a>
 		</li>
@@ -770,8 +1157,8 @@ Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">addcard</p> 
-                                                <p class="duration text-sm">0h 0m 18s+662ms</p> 
-                                                <span class="datetime">18:56:56 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+59ms</p> 
+                                                <span class="datetime">14:29:16 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -779,9 +1166,9 @@ Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">addcard</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:56:56</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:57:15</span>
-                                                        <span class='badge badge-default'>0h 0m 18s+662ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:29:16</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:29:29</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+59ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -798,24 +1185,24 @@ Session ID: 3ba65d475db4c1cbb0c8db7f4b6b2ccf
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:57:15 PM</td>
+				<td>2:29:29 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:57:15 PM</td>
+				<td>2:29:29 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cy\-teamNameMob"}
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c785a2621020d442fb6ac4e7d0f44c55, findElement {using=class name, value=cy-teamNameMob}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65474/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c785a2621020d442fb6ac4e7d0f44c55
+Command: [e805f2af2c7811a30a1e039cbc45f71e, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52481/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e805f2af2c7811a30a1e039cbc45f71e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -832,8 +1219,8 @@ Session ID: c785a2621020d442fb6ac4e7d0f44c55
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.testing.TestCases.Addmoney.cardclick(Addmoney.java:28)
-	at org.testing.TestCases.Cardsettings.addcard(Cardsettings.java:47)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.Cardsettings.addcard(Cardsettings.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -877,7 +1264,7 @@ Session ID: c785a2621020d442fb6ac4e7d0f44c55
 				</div>
 				<div class="file-info">
 					<span class="file-name">addcard</span>
-					<span class="file-size"> 410,750Kb</span>
+					<span class="file-size"> 715,047Kb</span>
 				</div>
 			</a>
 		</li>
@@ -895,8 +1282,8 @@ Session ID: c785a2621020d442fb6ac4e7d0f44c55
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">cardactivate</p> 
-                                                <p class="duration text-sm">0h 0m 18s+186ms</p> 
-                                                <span class="datetime">18:57:27 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+36ms</p> 
+                                                <span class="datetime">14:29:42 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -904,9 +1291,9 @@ Session ID: c785a2621020d442fb6ac4e7d0f44c55
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">cardactivate</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:57:27</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:57:45</span>
-                                                        <span class='badge badge-default'>0h 0m 18s+186ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:29:42</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:29:55</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+36ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -923,24 +1310,24 @@ Session ID: c785a2621020d442fb6ac4e7d0f44c55
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:57:45 PM</td>
+				<td>2:29:55 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:57:45 PM</td>
+				<td>2:29:55 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cy\-teamNameMob"}
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8a56536da4fffe9153026798d1454d1c, findElement {using=class name, value=cy-teamNameMob}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65517/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a56536da4fffe9153026798d1454d1c
+Command: [5b407727d648fa8d9b308ffada910408, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52535}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52535/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b407727d648fa8d9b308ffada910408
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -957,8 +1344,8 @@ Session ID: 8a56536da4fffe9153026798d1454d1c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.testing.TestCases.Addmoney.cardclick(Addmoney.java:28)
-	at org.testing.TestCases.Cardsettings.cardactivate(Cardsettings.java:36)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.Cardsettings.cardactivate(Cardsettings.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1002,7 +1389,7 @@ Session ID: 8a56536da4fffe9153026798d1454d1c
 				</div>
 				<div class="file-info">
 					<span class="file-name">cardactivate</span>
-					<span class="file-size"> 410,750Kb</span>
+					<span class="file-size"> 735,956Kb</span>
 				</div>
 			</a>
 		</li>
@@ -1020,8 +1407,8 @@ Session ID: 8a56536da4fffe9153026798d1454d1c
                                         <div class="open-test">
                                             <div class="test-detail"> 
                                                 <p class="name">carddetails</p> 
-                                                <p class="duration text-sm">0h 0m 18s+603ms</p> 
-                                                <span class="datetime">18:57:58 PM</span>
+                                                <p class="duration text-sm">0h 0m 13s+374ms</p> 
+                                                <span class="datetime">14:30:08 PM</span>
                                             </div>
                                         </div>
                                         <div class="test-contents d-none">
@@ -1029,9 +1416,9 @@ Session ID: 8a56536da4fffe9153026798d1454d1c
                                                 <div class="p-v-10 d-inline-block"> 
                                                     <div class="info">
                                                         <h5 class="test-status text-fail">carddetails</h5>
-                                                        <span class='badge badge-success'>07.10.2024 18:57:58</span>
-                                                        <span class='badge badge-danger'>07.10.2024 18:58:16</span>
-                                                        <span class='badge badge-default'>0h 0m 18s+603ms</span>
+                                                        <span class='badge badge-success'>07.30.2024 14:30:08</span>
+                                                        <span class='badge badge-danger'>07.30.2024 14:30:21</span>
+                                                        <span class='badge badge-default'>0h 0m 13s+374ms</span>
                                                     </div>
                                                     <div class="m-t-10 m-l-5">
                                                         
@@ -1048,24 +1435,24 @@ Session ID: 8a56536da4fffe9153026798d1454d1c
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:58:16 PM</td>
+				<td>2:30:21 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:58:16 PM</td>
+				<td>2:30:21 PM</td>
 				<td>
-						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cy\-teamNameMob"}
-  (Session info: chrome=126.0.6478.127)
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='collapse-expand'])[1]"}
+  (Session info: chrome=127.0.6533.73)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fc3144d6714fbccba0795bbc80c4e1a4, findElement {using=class name, value=cy-teamNameMob}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49191/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc3144d6714fbccba0795bbc80c4e1a4
+Command: [3b24b31715707e604c6b5e5787fabdd5, findElement {using=xpath, value=(//div[@class='collapse-expand'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\RANUTI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52605/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b24b31715707e604c6b5e5787fabdd5
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1082,8 +1469,8 @@ Session ID: fc3144d6714fbccba0795bbc80c4e1a4
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.testing.TestCases.Addmoney.cardclick(Addmoney.java:28)
-	at org.testing.TestCases.Cardsettings.carddetails(Cardsettings.java:26)
+	at org.testing.Pages.Teams.teamsclick(Teams.java:46)
+	at org.testing.TestCases.Cardsettings.carddetails(Cardsettings.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1117,14 +1504,14 @@ Session ID: fc3144d6714fbccba0795bbc80c4e1a4
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:58:16 PM</td>
+				<td>2:30:21 PM</td>
 				<td>
 						Test Failed
 				</td>
 			</tr>
 			<tr class="event-row">
 				<td><i class="fa fa-times text-fail"></i></td>
-				<td>6:58:16 PM</td>
+				<td>2:30:21 PM</td>
 				<td>
 						<textarea disabled class="code-block">org.testng.TestNGException: 
 Cannot inject @Test annotated Method [addmoney] with [class org.openqa.selenium.chrome.ChromeDriver].
@@ -1171,7 +1558,7 @@ For more information on native dependency injection please refer to https://test
 				</div>
 				<div class="file-info">
 					<span class="file-name">carddetails</span>
-					<span class="file-size"> 410,750Kb</span>
+					<span class="file-size"> 714,570Kb</span>
 				</div>
 			</a>
 		</li>
